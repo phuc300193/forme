@@ -215,19 +215,78 @@ let mobie = [
             Category: 'Phone',
         },
 ]
-// 5.1:Print/log name and price of all the products out
+// // 5.1:Print/log name and price of all the products out
 
 let n = mobie.length
-let i = 0
-for(i; i<n; i++ ){
-console.log(mobie[i])
-// console.log('Name: ' +  mobie[i].name)
-// console.log('Price: ' + mobie[i].price)
-}
-// // Write a script printing/logging out the products with their number, then print/logging out the details of a product with its position entered by users
 
-for( let x in mobie){
-    let nhap = Number(prompt('Enter product'))
-    nhap == mobie[i]
-    console.log(x + mobie[x])
+// for(let i=0 ; i<n; i++ ){
+   
+//     console.log(mobie[i].stt + ' Name: ' +  mobie[i].name)
+//     console.log('Price: ' + mobie[i].price)
+// }
+  
+// let nhap = Number(prompt('Enter key word'))
+// if(nhap == 1){
+// for (let x in Xiaomi){
+
+// // console.log(x)
+// console.log(x + ':' + Xiaomi[x])
+// }}
+// else if(nhap == 2){
+//     for( let v in vs)
+// console.log(v + ':' +  vs[v])
+// }
+// else if(nhap == 3){
+//     for (p in ip)
+//     console.log(p + ':' + ip[p])
+// }
+// else if(nhap == 4){
+//     for (s in ss)
+//     console.log(s + ":" + ss[s])
+// }
+// else{
+//     alert('Nhập lại đi')
+// }
+
+// 5.3
+// let enter = prompt("Enter your category")
+
+// if( enter == 'charger'){
+//     let {stt, name, brand, price, color, Category} = Xiaomi
+//     console.log(`Name : ${name}`)
+//     console.log(`Price : ${price}`)
+// }
+
+// else if( enter == 'mobie'){
+//     for(let i= 1; i<n; i++ ){
+// console.log('Name' + ":" +  mobie[i].name)
+// console.log('Price' + ':' + mobie[i].price)
+//     }
+// }
+// else{
+//     alert('không có')
+// }
+
+
+ // Write a script printing/logging out the products with their number, then print/logging out the details of a product with its position entered by users
+
+// if(nhap == 1){
+
+// }
+
+//  let vidu = {
+//      name : 'Kick',
+//      quocgia: 'viet nam',
+
+//  }
+//  let {name, quocgia} = vidu;
+// console.log(`I am ${name} `)
+Xiaomi.provider = 'Phukienzero dientucc'
+vs.provider = 'tgđ đghn vhstore'
+ip.provider = 'tgdd'
+vs.provider = 'tgdd'
+for(let i = 0; i < n; i++){
+  console.log('Name' + ":" +  mobie[i].name)
+console.log('Price' + ':' + mobie[i].price)
+console.log('Providers' + ':' + mobie[i].provider)
 }
