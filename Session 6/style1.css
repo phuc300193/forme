@@ -1,12 +1,19 @@
 .the{
-    font-size: 50px;
+    line-height: 0px;
+    font-size: 60px;
     text-align: center;
 
 }
 .new{
-    font-size: 100px;
+   line-height: 250px;
+    font-size: 350px;
     margin: 0px;
     text-align: center;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Brush Script MT;
+} 
+.don{
+    /* position: absolute; */
+    left:10px;
+    text-indent: 100px;
 }
